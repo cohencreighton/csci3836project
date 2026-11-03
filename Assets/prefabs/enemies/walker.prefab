@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5202694100241126776}
   - component: {fileID: -1831953867554799336}
   m_Layer: 0
-  m_Name: flyingEnemy
+  m_Name: walker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.8431373, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -153,7 +153,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   speed: 2
-  maxHealth: 3
-  attackDistance: 0.8
-  damage: 1
-  isFlying: 1
