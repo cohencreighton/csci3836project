@@ -23,6 +23,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "leftfire",
+                    "type": "Button",
+                    "id": "c1e28c6e-8254-4830-836a-deb81acadd2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "rightfire",
+                    "type": "Button",
+                    "id": "569973aa-d0d3-4c24-9b37-b535a870b44f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -38,7 +56,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
+                    "name": "Positive",
                     "id": "1852858e-86a3-4969-8dd2-9dbffedc347d",
                     "path": "<Keyboard>/s",
                     "interactions": "",
@@ -49,7 +67,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
+                    "name": "Negative",
                     "id": "e38260b0-decd-424d-bfae-a8630ab8afa4",
                     "path": "<Keyboard>/w",
                     "interactions": "",
@@ -71,7 +89,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
+                    "name": "Positive",
                     "id": "bdeba388-6d80-4c95-998a-9299eade465c",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
@@ -82,7 +100,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
+                    "name": "Negative",
                     "id": "06eafcbf-db47-4953-9e9f-329014f7ef1e",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
@@ -91,6 +109,28 @@
                     "action": "rightAim",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "efa8fb63-584f-43e0-843f-3e2c392e5ee0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftfire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd5fb561-d99d-40bc-95df-e1f50dbf0188",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightfire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
