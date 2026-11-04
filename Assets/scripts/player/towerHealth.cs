@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class TowerHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 10;
+    [SerializeField] private int maxHealth = 25;
     [SerializeField] private TMP_Text healthText;
     [SerializeField] private GameObject gameOverText;
     [SerializeField] private GameObject restartButton;

@@ -1,10 +1,17 @@
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class StartMenuController : MonoBehaviour
 {
 
-    public void OnStartClick()
+    void Update() {
+        if (Keyboard.current?.anyKey.wasPressedThisFrame == true) {
+            StartGame();
+        }
+    }
+
+    public void StartGame()
     {
         SceneManager.LoadScene("MainGame");
     }
